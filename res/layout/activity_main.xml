@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <Button
+        android:onClick="helloMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello_百度地图" />
+    
+    <Button
+        android:onClick="baseMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="基本地图" />
+    
+    <Button
+        android:onClick="overlayMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地图自定义覆盖物" />
+    
+    <Button
+        android:onClick="overlayMarkerMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地图自定义Marker覆盖物" />
+
+</LinearLayout>
